@@ -4,6 +4,20 @@
 }
 
 .border-radius {
-    border-radius: 50px;
-
+    border-radius: 30px;
+    opacity: 0.8;
 }
+
+.logo {
+    color: #ffff;
+}
+
+/* body {
+
+    padding-top: 115px;
+
+    background-image: url("/imgs/flying-frog-closeup-beautiful-tree-frog-red-flower-animal-closeup-rhacophorus-reinwardtii.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
