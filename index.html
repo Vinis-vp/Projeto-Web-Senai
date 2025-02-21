@@ -9,6 +9,7 @@
 </head>
 <body>
    
+    <!-- barra de navegação -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top py-0 px-4 box-shadow navigation painel" style="background-color: #795548; opacity: 0.8;"> 
         <a href="" class="navbar-brand logo">
             <img src="imgs/logo Branca.png" alt="logo" class="img-fluid mx-md-4" style="max-width: 75px;">
@@ -18,31 +19,34 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav ms-auto">
+                <li class="nav-item align-items-center justify-content-center">
+                    <a class="nav-link text-white fs-md-5 fw-bold mx-md-2" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fs-md-5 fw-bold mx-md-2" href="informacoes.html">Informe-se</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fs-md-5 fw-bold mx-md-2" href="contato.html">Contato</a>
+                </li>
+            </div>
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2" href="index.html">Home</a>
+                    <a class=" btn btn-success text-white fw-bold mx-md-2" href="login.html">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2" href="informe-se.html">Informe-se</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2" href="contato.html">Contato</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2" href="login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2" href="cadastro.html">Cadastro</a>
+                    <a class="btn btn-outline-success text-white fw-bold mx-md-2" href="cadastro.html">Cadastro</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <!-- Carousel de imagens -->
     <section class="container-fluid">
         <div class="row text-white painel">
 
             <div class="col-lg-7 p-0">
-                <div id="carrouselAnimais" class="carousel slide">
+                <div id="carrouselAnimais" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carrouselAnimais" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carrouselAnimais" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -70,7 +74,7 @@
                   </div>
             </div>
             <div class="col-lg-5 p-4">
-                <h1 class="display-4">Bem-vindo ao site EcoFauna Brasil!</h1>
+                <h1 class="display-5 mb-4">Bem-vindo ao site EcoFauna Brasil!</h1>
                 <p class="lead">Nosso objetivo é educar, inspirar e incentivar ações para proteger a biodiversidade, promovendo iniciativas de conservação e mostrando como cada pessoa pode fazer a diferença. 
                     Junte-se a nós nessa missão e ajude a salvar espécies preciosas do nosso planeta!</p>
         </div>
@@ -78,6 +82,7 @@
 
     </section>
 
+    <!-- grid de topicos -->
     <section class="py-5 bg-light text-center">
         <div class="container">
             <div class="my-5">
@@ -86,42 +91,42 @@
             </div>
             <div class="row">
                 <div class="col-xl-4 col-md-6">
-                    <div style="height: 100px;" class="d-flex justify-content-center">
+                    <div style="height: 100px;" class="d-flex justify-content-center mb-3">
                         <img src="/imgs/icone onça.png" alt="Espécies Ameaçadas">
                     </div>
                     <h3>Espécies Ameaçadas</h3>
                     <p> Conheça os animais brasileiros que correm risco de extinção e o que está sendo feito para protegê-los.</p>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div style="height: 100px;" class="d-flex justify-content-center">
+                    <div style="height: 100px;" class="d-flex justify-content-center mb-3">
                         <img src="/imgs/icone globo.png" alt="Causas da Extinção">
                     </div>
                     <h3>Causas da Extinção</h3>
                     <p>Entenda os principais fatores que levam espécies à extinção e como podemos combatê-los.</p>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div style="height: 100px;" class="d-flex justify-content-center">
+                    <div style="height: 100px;" class="d-flex justify-content-center mb-3">
                         <img src="/imgs/folha.png" alt="Projetos de Preservação">
                     </div>
                         <h3>Projetos de Preservação</h3>
                     <p>Saiba mais sobre as iniciativas ambientais que lutam pela sobrevivência da fauna brasileira.</p>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div style="height: 100px;" class="d-flex justify-content-center">
+                    <div style="height: 100px;" class="d-flex justify-content-center mb-3">
                         <img src="/imgs/aperto-de-mao.png" alt="Como Ajudar?">
                     </div>
                     <h3>Como Ajudar?</h3>
                     <p>Pequenas ações no dia a dia podem fazer uma grande diferença para a preservação dos animais.</p>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div style="height: 100px;" class="d-flex justify-content-center">
+                    <div style="height: 100px;" class="d-flex justify-content-center mb-3">
                         <img src="/imgs/abra-o-livro.png" alt="Curiosidades da Fauna Brasileira">
                     </div>
                     <h3>Curiosidades da Fauna Brasileira</h3>
                     <p>Descubra fatos incríveis sobre os animais silvestres do Brasil e suas características únicas.</p>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div style="height: 100px;" class="d-flex justify-content-center">
+                    <div style="height: 100px;" class="d-flex justify-content-center mb-3">
                         <img src="/imgs/doacao.png" alt="Doe e Apoie">
                     </div>
                     <h3>Doe e Apoie</h3>
@@ -131,6 +136,7 @@
         </div>
     </section>
 
+    <!-- quadro com frase  -->
     <section id="home-quote" class="p-md-5">
         <blockquote class="blockquote text-center text-white p-md-5 p-3">
             <p class="display-4 "><em>

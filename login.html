@@ -18,21 +18,24 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav ms-auto">
+                <li class="nav-item align-items-center justify-content-center">
+                    <a class="nav-link text-white fs-5 fw-bold mx-md-2" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fs-5 fw-bold mx-md-2" href="informe-se.html">Informe-se</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fs-5 fw-bold mx-md-2" href="contato.html">Contato</a>
+                </li>
+            </div>
             <ul class="navbar-nav ms-auto">
+                
                 <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2" href="index.html">Home</a>
+                    <a class=" btn btn-success text-white fw-bold mx-md-2" href="login.html">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2" href="informe-se.html">Informe-se</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2" href="contato.html">Contato</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2" href="login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2" href="cadastro.html">Cadastro</a>
+                    <a class="btn btn-outline-success text-white fw-bold mx-md-2" href="cadastro.html">Cadastro</a>
                 </li>
             </ul>
         </div>
@@ -42,7 +45,7 @@
         <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
             <div class="row login-container w-100 m-5 shadow-lg rounded overflow-hidden">
                 
-                <div class="col-md-6 p-5 bg-white d-flex flex-column justify-content-center">
+                <div class="col-md-6 col-sl-10 p-5 bg-white d-flex flex-column justify-content-center">
                     <h2 class="fw-bold text-dark">Bem-vindo</h2>
                     <p class="text-muted">Acesse sua conta ou crie uma nova</p>
                     
@@ -55,11 +58,17 @@
                             <label for="password" class="form-label">Senha</label>
                             <input type="password" id="password" class="form-control" placeholder="Digite sua senha" required>
                         </div>
-                        <button type="submit" class="btn btn-dark w-100">Entrar</button>
+                        <button type="submit" class="btn btn-success w-100" >Entrar</button>
                         <p class="mt-3 text-center">Ainda não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
                     </form>
                 </div>
-                <div class="col-md-6 d-none d-md-flex align-items-center justify-content-center" style="background: url('imgs/bird.jpg') center/cover no-repeat;">
+                <div class="col-md-6 d-none d-md-flex align-items-center justify-content-center position-relative" 
+                    style="background-color: #ffffff; padding: 0px; margin: 0px;">
+                    
+                    <img src="imgs/bird.jpg"
+                        class="position-absolute w-100 h-100 object-fit-cover"
+                        style="opacity: 0.8; margin:0px; border-radius: 5% 0 0 5%; width: 100%;">
+                </div>
                 </div>
             </div>
         </div>

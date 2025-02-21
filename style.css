@@ -17,13 +17,18 @@
 }
 
 .painel {
-
     background-color: #2e7d32;
 }
 
 .login-container{
     height: 75vh; 
 }
+
+.cadastro-container{
+    height: 85vh; 
+}
+
+
 
 body {
 
@@ -34,16 +39,56 @@ body {
 
 #home-quote{
 
-    background: url('imgs/jungle-bali-indonesia.jpg') center center;
+    background: url('imgs/jungle.jpg') center center;
     background-size: cover;
-    filter: saturate(90%);
+    filter: saturate(50%);
+    height: max-content;
+
 }
-/* .background{    
-    background-image: url("/imgs/flying-frog-closeup-beautiful-tree-frog-red-flower-animal-closeup-rhacophorus-reinwardtii.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-} */
+
+@media (max-width: 767px) {
+    .login-container {
+      margin: 0 !important;
+      width: 100% !important;
+      max-width: 95vw;
+    }
+
+    .cadastro-container {
+        margin: 0 !important;
+        height: 85%;
+        width: 100% !important;
+      max-width: 95vw;
+    }
+    
+    .container-fluid {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .navbar-nav .btn {
+        background-color: transparent !important;
+        border-color: transparent !important;
+        padding: 0;
+        color: inherit !important;
+    }
+    
+    .navbar-nav .btn-success {
+        color: #fff !important;
+        margin-top: 0.5rem;
+    }
+    .navbar-nav .btn-outline-success {
+        color: #fff !important;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .navbar-nav .btn:hover {
+        text-decoration: underline;
+    }
+}
 
 @media (max-width: 768px) {
     #home-quote .display-4 {
