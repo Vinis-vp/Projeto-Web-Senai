@@ -28,12 +28,15 @@
     height: 85vh; 
 }
 
+.pergunta {
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
 
 
 body {
 
     padding-top: 85px;
-    background-color: #81c784;
+   
 
 }
 
@@ -87,6 +90,12 @@ body {
     
     .navbar-nav .btn:hover {
         text-decoration: underline;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-nav-link {
+        font-size: 1.25rem !important; 
     }
 }
 

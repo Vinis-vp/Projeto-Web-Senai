@@ -10,7 +10,7 @@
 <body>
    
     <!-- barra de navegação -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top py-0 px-4 box-shadow navigation painel" style="background-color: #795548; opacity: 0.8;"> 
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top py-0 px-4 box-shadow navigation painel" style="background-color: #795548; opacity: 0.95;"> 
         <a href="" class="navbar-brand logo">
             <img src="imgs/logo Branca.png" alt="logo" class="img-fluid mx-md-4" style="max-width: 75px;">
         </a>
@@ -21,13 +21,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="navbar-nav ms-auto">
                 <li class="nav-item align-items-center justify-content-center">
-                    <a class="nav-link text-white fs-md-5 fw-bold mx-md-2" href="index.html">Home</a>
+                    <a class="nav-link text-white fw-bold mx-md-2 custom-nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white fs-md-5 fw-bold mx-md-2" href="informacoes.html">Informe-se</a>
+                    <a class="nav-link text-white fw-bold mx-md-2 custom-nav-link" href="informacoes.html">Informe-se</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white fs-md-5 fw-bold mx-md-2" href="contato.html">Contato</a>
+                    <a class="nav-link text-white fw-bold mx-md-2 custom-nav-link" href="doacao.html">Doação</a>
                 </li>
             </div>
             <ul class="navbar-nav ms-auto">
@@ -73,13 +73,12 @@
                     </button>
                   </div>
             </div>
-            <div class="col-lg-5 p-4">
+            <div class="col-lg-5 p-4 align-self-center">
                 <h1 class="display-5 mb-4">Bem-vindo ao site EcoFauna Brasil!</h1>
                 <p class="lead">Nosso objetivo é educar, inspirar e incentivar ações para proteger a biodiversidade, promovendo iniciativas de conservação e mostrando como cada pessoa pode fazer a diferença. 
                     Junte-se a nós nessa missão e ajude a salvar espécies preciosas do nosso planeta!</p>
+            </div>
         </div>
-        </div>
-
     </section>
 
     <!-- grid de topicos -->
@@ -144,17 +143,82 @@
                 Proteger nossos animais em extinção é preservar o equilíbrio da natureza e garantir um futuro sustentável.
             </em></p>
         </blockquote>
-
-
-
     </section>
 
-    <!-- <div class="container mt-5">
-        <h1 class="text-white">Bem-vindo ao site sobre Sustentabilidade!</h1>
-        <p class="text-white">Aqui você encontra informações sobre preservação de animais em extinção.</p>
-    </div> -->
-    
-    <div style="height: 120vh;"></div> <!-- Adiciona espaço para testar a rolagem -->
+    <!-- perguntas frequentes -->
+    <section class="container">
+        <div class="my-5 text-center">
+            <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
+            <span class="h6 d-block">Retire suas duvidas</span>
+        </div>
+        <div class="row justify-content-center pb-5">
+            <div class=" col-md-6" id="perguntasFrequentes" data-children=".pergunta">
+                <div class="pergunta py-2">
+                    <a class="lead" data-bs-toggle="collapse" data-bs-parent="#perguntasFrequentes" href="#pergunta1" aria-expanded="false" aria-controls="pergunta1">➜Como faço para ajudar?</a>
+                    <div id="pergunta1" class="collapse show" role="tabpanel">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt commodi asperiores, in cumque laudantium ullam delectus, distinctio explicabo vitae autem pariatur doloribus, ad consectetur nesciunt blanditiis eos dignissimos quod? Quibusdam?</p>
+                    </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="pergunta py-2">
+                    <a class="lead" data-bs-toggle="collapse" data-bs-parent="#perguntasFrequentes" href="#pergunta2" aria-expanded="false" aria-controls="pergunta2">➜Como faço para ajudar?</a>
+                    <div id="pergunta2" class="collapse" role="tabpanel">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt commodi asperiores, in cumque laudantium ullam delectus, distinctio explicabo vitae autem pariatur doloribus, ad consectetur nesciunt blanditiis eos dignissimos quod? Quibusdam?</p>
+                    </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="pergunta py-2">
+                    <a class="lead" data-bs-toggle="collapse" data-bs-parent="#perguntasFrequentes" href="#pergunta3" aria-expanded="false" aria-controls="pergunta3">➜Como faço para ajudar?</a>
+                    <div id="pergunta3" class="collapse" role="tabpanel">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt commodi asperiores, in cumque laudantium ullam delectus, distinctio explicabo vitae autem pariatur doloribus, ad consectetur nesciunt blanditiis eos dignissimos quod? Quibusdam?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- rorapé -->
+   <footer class="bg-dark text-white">
+    <div class="container py-4">
+        <div class="row g-4 align-items-start"> <!-- Alinhamento vertical ajustado -->
+            <!-- Coluna 1 -->
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                <h4 class="h6 mb-3 text-center">PÁGINAS</h4>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2"><a href="informacoes.html" class="d-block py-1">Informe-se</a></li>
+                    <li class="mb-2"><a href="contato.html" class="d-block py-1">Contato</a></li>
+                    <li class="mb-2"><a href="login.html" class="d-block py-1">Login</a></li>
+                    <li><a href="cadastro.html" class="d-block py-1">Cadastro</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 2 -->
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                <h4 class="h6 mb-3 text-center">DADOS DE CONTATO</h4>
+                <ul class="list-unstyled text-secondary mb-0">
+                    <li class="mb-2">ecofauna@ecofauna.com.br</li>
+                    <li class="mb-2">21 99999-9999</li>
+                    <li>De Seg. à Sex. das 8h às 18h</li>
+                </ul>
+            </div>
+
+            <!-- Coluna 3 -->
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+                <div style="max-width: 240px;" class="w-100">
+                    <h4 class="h6 mb-3 text-center">REDES SOCIAIS</h4>
+                    <ul class="list-unstyled d-grid gap-2 mb-0">
+                        <li><a class="btn btn-outline-secondary btn-sm w-100" href="#">Facebook</a></li>
+                        <li><a class="btn btn-outline-secondary btn-sm w-100" href="#">Instagram</a></li>
+                        <li><a class="btn btn-outline-secondary btn-sm w-100" href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-success text-center py-3"> 
+        <p class="mb-0">EcoFauna © 2025. Direitos Reservados.</p>
+    </div>
+</footer>
 
     <script type="text/javascript" src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
