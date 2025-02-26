@@ -41,66 +41,62 @@
     </nav>
 
   <!-- Seção de Doação -->
-  <section class="container-fluid py-5 doacao-section">
-    <div class="row">
+  <section class="container-fluid py-5 doacao-section m-2">
+    <div class="row align-items-center">
       <div class="col-md-6 d-flex flex-column justify-content-center p-5">
-        <img src="imgs/plantar.png" alt="Doe agora mesmo" class="text-center" style="max-width: 150px;"/>
-        <h1 class="mt-4" style="color: #2e7d32;">Doe agora mesmo</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="mt-4" style="color: #2e7d32; font-size: 4rem !important;">Doe agora mesmo</h1>
+          </div>
+          <div class="col-md-6">
+            <img src="imgs/salve-a-natureza.png" alt="Doe agora mesmo" class="text-center" style="max-width: 17rem; margin-top: 3rem;"/>
+          </div>
+
+
+        </div>
+        
         <p class="fs-4">Ajude a proteger a fauna e a flora do nosso país!</p>
       </div>
-
-      <div class="col-md-6 p-4">
-        <div class="mb-4 text-center">
-          <ul class="step-indicator list-unstyled d-flex justify-content-center">
-            <li><span class="badge bg-success">1</span></li>
-            <li><span class="badge bg-primary">2</span></li>
-            <li><span class="badge bg-secondary">3</span></li>
-            <li><span class="badge bg-secondary">4</span></li>
-          </ul>
-        </div>
+      <div class="col-md-6 p-4 pb-3">
 
         <!-- Botões de Seleção de Periodicidade -->
         <div class="btn-group w-100 mb-3" role="group" aria-label="Basic radio toggle button group">
           <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-          <label class="btn btn-outline-success" for="btnradio1">MENSAL</label>
+          <label class="btn btn-outline-success py-3" for="btnradio1">MENSAL</label>
           <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-          <label class="btn btn-outline-success" for="btnradio2">ÚNICA</label>
+          <label class="btn btn-outline-success py-3" for="btnradio2">ÚNICA</label>
         </div>
 
         <!-- Botões de Valores Fixos -->
-        <div class="d-flex justify-content-between mb-3">
-          <button class="btn btn-outline-success flex-fill mx-1">R$ 39</button>
-          <button class="btn btn-outline-success flex-fill mx-1">R$ 55</button>
-          <button class="btn btn-outline-success flex-fill mx-1">R$ 100</button>
+        <div class="btn-group d-flex justify-content-between mb-3" role="groupPrice" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio-valor" id="valor1" autocomplete="off" checked>
+          <label class="btn btn-outline-success flex-fill mx-1 py-2" for="valor1">R$ 39</label>
+          <input type="radio" class="btn-check" name="btnradio-valor" id="valor2" autocomplete="off">
+          <label class="btn btn-outline-success flex-fill mx-1 py-2" for="valor2">R$ 55</label>
+          <input type="radio" class="btn-check" name="btnradio-valor" id="valor3" autocomplete="off">
+          <label class="btn btn-outline-success flex-fill mx-1 py-2" for="valor3">R$ 100</label>
         </div>
 
         <!-- Campo para Valor Personalizado -->
-        <div class="mb-3">
+        <div class="my-3">
           <label for="valorPersonalizado" class="form-label"
-            >Você também pode escolher outro valor</label
-          >
+            >Você também pode escolher outro valor</label>
           <div class="input-group">
             <span class="input-group-text">R$</span>
-            <input
-              type="number"
-              class="form-control"
-              id="valorPersonalizado"
-              placeholder="55"
-              aria-label="Valor em Reais"
-            />
+            <input type="number" class="form-control" id="valorPersonalizado" placeholder="55" aria-label="Valor em Reais"/>
             <span class="input-group-text">BRL</span>
           </div>
         </div>
 
         <!-- Botão Principal -->
-        <button class="btn btn-warning w-100 fw-bold" style="color: #000;">
+        <button class="btn btn-warning w-100 fw-bold p-2" style="color: #000;">
           DOE AGORA
         </button>
 
         <!-- Texto de Rodapé do Formulário -->
         <p class="text-center mt-2" style="font-size: 0.85rem;">
           Sua contribuição é 100% destinada para a proteção do meio ambiente.
-          <br />
+          <br/>
           Transação segura. Powered by <a href="#"></a>
         </p>
       </div>
