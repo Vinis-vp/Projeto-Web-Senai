@@ -1,113 +1,165 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Doação</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sustentabilidade e Consciência Ambiental</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: #F5F0EE;"> 
-     <!-- barra de navegação -->
-     <nav class="navbar navbar-expand-md navbar-dark fixed-top py-0 px-4 box-shadow navigation painel" style="background-color: #795548; opacity: 0.95;"> 
-        <a href="" class="navbar-brand logo">
-            <img src="imgs/logo Branca.png" alt="logo" class="img-fluid mx-md-4" style="max-width: 75px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav ms-auto">
-                <li class="nav-item align-items-center justify-content-center">
-                    <a class="nav-link text-white fw-bold mx-md-2 custom-nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2 custom-nav-link" href="informacoes.html">Informe-se</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white fw-bold mx-md-2 custom-nav-link" href="doacao.html">Doação</a>
-                </li>
+<body style="background-color: #F5F0EE;">
+
+   <!-- barra de navegação -->
+   <nav class="navbar navbar-expand-md navbar-dark fixed-top py-0 px-4 box-shadow navigation painel"
+      style="background-color: #795548; opacity: 0.95;">
+      <a href="" class="navbar-brand logo">
+         <img src="imgs/logo Branca.png" alt="logo" class="img-fluid mx-md-4" style="max-width: 75px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <div class="navbar-nav ms-auto">
+            <li class="nav-item align-items-center justify-content-center">
+               <a class="nav-link text-white fw-bold mx-md-2 custom-nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-white fw-bold mx-md-2 custom-nav-link" href="informacoes.html">Informe-se</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-white fw-bold mx-md-2 custom-nav-link" href="doacao.html">Doação</a>
+            </li>
+         </div>
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+               <a class=" btn btn-success text-white fw-bold mx-md-2" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+               <a class="btn btn-outline-success text-white fw-bold mx-md-2" href="cadastro.html">Cadastro</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+
+   <!-- Seção de Doação -->
+   <section class="d-flex align-items-center justify-content-center full-height-section">
+      <div class="container-xl">
+         <div class="row align-items-center">
+            <!-- Coluna Esquerda -->
+            <div class="col-md-6 d-flex flex-column justify-content-center p-5">
+               <div class="row">
+                  <div class="col-md-6">
+                     <h1 class="mt-4" style="color: #2e7d32; font-size: 4rem !important;">Doe agora mesmo</h1>
+                  </div>
+                  <div class="col-md-6">
+                     <img src="imgs/salve-a-natureza.png" alt="Doe agora mesmo" class="text-center"
+                        style="max-width: 17rem; margin-top: 3rem;" />
+                  </div>
+               </div>
+               <p class="fs-4">Ajude a proteger a fauna e a flora do nosso país!</p>
             </div>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class=" btn btn-success text-white fw-bold mx-md-2" href="login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-outline-success text-white fw-bold mx-md-2" href="cadastro.html">Cadastro</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-  <!-- Seção de Doação -->
-  <section class="container-fluid py-5 doacao-section m-2">
-    <div class="row align-items-center">
-      <div class="col-md-6 d-flex flex-column justify-content-center p-5">
-        <div class="row">
-          <div class="col-md-6">
-            <h1 class="mt-4" style="color: #2e7d32; font-size: 4rem !important;">Doe agora mesmo</h1>
-          </div>
-          <div class="col-md-6">
-            <img src="imgs/salve-a-natureza.png" alt="Doe agora mesmo" class="text-center" style="max-width: 17rem; margin-top: 3rem;"/>
-          </div>
 
 
-        </div>
-        
-        <p class="fs-4">Ajude a proteger a fauna e a flora do nosso país!</p>
+            <!-- Coluna Direita -->
+            <div class="col-lg-6">
+               <!-- Botões de Seleção de Periodicidade -->
+               <div class="btn-group w-100 mb-4" role="group" aria-label="Basic radio toggle button group">
+                  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                  <label class="btn btn-outline-success py-3" for="btnradio1">MENSAL</label>
+                  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                  <label class="btn btn-outline-success py-3" for="btnradio2">ÚNICA</label>
+               </div>
+
+               <!-- Botões de Valores Fixos -->
+               <div class="btn-group d-flex justify-content-between mb-3" role="groupPrice"
+                  aria-label="Basic radio toggle button group">
+                  <input type="radio" class="btn-check" name="btnradio-valor" id="valor1" value="39" autocomplete="off"
+                     checked>
+                  <label class="btn btn-outline-success flex-fill mx-1 py-2" for="valor1">R$ 39</label>
+                  <input type="radio" class="btn-check" name="btnradio-valor" id="valor2" value="55" autocomplete="off">
+                  <label class="btn btn-outline-success flex-fill mx-1 py-2" for="valor2">R$ 55</label>
+                  <input type="radio" class="btn-check" name="btnradio-valor" id="valor3" value="100"
+                     autocomplete="off">
+                  <label class="btn btn-outline-success flex-fill mx-1 py-2" for="valor3">R$ 100</label>
+               </div>
+
+               <!-- Campo para Valor Personalizado -->
+               <div class="mb-3">
+                  <label for="valorPersonalizado" class="form-label">Você também pode escolher outro valor</label>
+                  <div class="input-group">
+                     <span class="input-group-text">R$</span>
+                     <input type="number" class="form-control" id="valorPersonalizado" placeholder="50"
+                        aria-label="Valor em Reais">
+                     <span class="input-group-text">BRL</span>
+                  </div>
+               </div>
+
+               <!-- Botão Principal -->
+               <button class="btn btn-warning w-100 fw-bold py-3" style="color: #000;">DOE AGORA</button>
+
+               <!-- Texto de Rodapé do Formulário -->
+               <p class="text-center mt-2" style="font-size: 0.85rem;">
+                  Sua contribuição é 100% destinada para a proteção do meio ambiente.<br>
+                  Transação segura. Powered by ...
+               </p>
+            </div>
+         </div>
       </div>
-      <div class="col-md-6 p-4 pb-3">
+   </section>
 
-        <!-- Botões de Seleção de Periodicidade -->
-        <div class="btn-group w-100 mb-3" role="group" aria-label="Basic radio toggle button group">
-          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-          <label class="btn btn-outline-success py-3" for="btnradio1">MENSAL</label>
-          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-          <label class="btn btn-outline-success py-3" for="btnradio2">ÚNICA</label>
-        </div>
+   <!-- rorapé -->
+   <footer class="bg-dark text-white mt-5">
+      <div class="container py-4">
+         <div class="row g-4 align-items-start">
+            <!-- Alinhamento vertical ajustado -->
+            <!-- Coluna 1 -->
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start">
+               <h4 class="h6 mb-3 text-center">PÁGINAS</h4>
+               <ul class="list-unstyled mb-0">
+                  <li class="mb-2"><a href="informacoes.html" class="d-block py-1">Informe-se</a></li>
+                  <li class="mb-2"><a href="contato.html" class="d-block py-1">Contato</a></li>
+                  <li class="mb-2"><a href="login.html" class="d-block py-1">Login</a></li>
+                  <li><a href="cadastro.html" class="d-block py-1">Cadastro</a></li>
+               </ul>
+            </div>
 
-        <!-- Botões de Valores Fixos -->
-        <div class="btn-group d-flex justify-content-between mb-3" role="groupPrice" aria-label="Basic radio toggle button group">
-          <input type="radio" class="btn-check" name="btnradio-valor" id="valor1" autocomplete="off" checked>
-          <label class="btn btn-outline-success flex-fill mx-1 py-2" for="valor1">R$ 39</label>
-          <input type="radio" class="btn-check" name="btnradio-valor" id="valor2" autocomplete="off">
-          <label class="btn btn-outline-success flex-fill mx-1 py-2" for="valor2">R$ 55</label>
-          <input type="radio" class="btn-check" name="btnradio-valor" id="valor3" autocomplete="off">
-          <label class="btn btn-outline-success flex-fill mx-1 py-2" for="valor3">R$ 100</label>
-        </div>
+            <!-- Coluna 2 -->
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start">
+               <h4 class="h6 mb-3 text-center">DADOS DE CONTATO</h4>
+               <ul class="list-unstyled text-secondary mb-0">
+                  <li class="mb-2">ecofauna@ecofauna.com.br</li>
+                  <li class="mb-2">21 99999-9999</li>
+                  <li>De Seg. à Sex. das 8h às 18h</li>
+               </ul>
+            </div>
 
-        <!-- Campo para Valor Personalizado -->
-        <div class="my-3">
-          <label for="valorPersonalizado" class="form-label"
-            >Você também pode escolher outro valor</label>
-          <div class="input-group">
-            <span class="input-group-text">R$</span>
-            <input type="number" class="form-control" id="valorPersonalizado" placeholder="55" aria-label="Valor em Reais"/>
-            <span class="input-group-text">BRL</span>
-          </div>
-        </div>
-
-        <!-- Botão Principal -->
-        <button class="btn btn-warning w-100 fw-bold p-2" style="color: #000;">
-          DOE AGORA
-        </button>
-
-        <!-- Texto de Rodapé do Formulário -->
-        <p class="text-center mt-2" style="font-size: 0.85rem;">
-          Sua contribuição é 100% destinada para a proteção do meio ambiente.
-          <br/>
-          Transação segura. Powered by <a href="#"></a>
-        </p>
+            <!-- Coluna 3 -->
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+               <div style="max-width: 240px;" class="w-100">
+                  <h4 class="h6 mb-3 text-center">REDES SOCIAIS</h4>
+                  <ul class="list-unstyled d-grid gap-2 mb-0">
+                     <li><a class="btn btn-outline-secondary btn-sm w-100" href="#">Facebook</a></li>
+                     <li><a class="btn btn-outline-secondary btn-sm w-100" href="#">Instagram</a></li>
+                     <li><a class="btn btn-outline-secondary btn-sm w-100" href="#">Twitter</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  </section>
+      <div class="bg-success text-center py-3">
+         <p class="mb-0">EcoFauna © 2025. Direitos Reservados.</p>
+      </div>
+   </footer>
 
-  <!-- Scripts Bootstrap -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w72JgrbUg9qVoB5FZ9WhC5i3erT2vD4P2e0lS8QeC7WZ9Fpf8FrgB96f0pPh2iNn"
-    crossorigin="anonymous"
-  ></script>
+   <script src="index.js" defer></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+   </script>
 </body>
+
 </html>

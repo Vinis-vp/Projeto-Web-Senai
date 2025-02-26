@@ -1,76 +1,112 @@
 .box-shadow {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
-                0 4px 8px 0 rgba(0,0,0,.05);
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
+      0 4px 8px 0 rgba(0, 0, 0, .05);
 }
 
 .border-radius {
-    border-radius: 30px;
-    opacity: 0.8;
+   border-radius: 30px;
+   opacity: 0.8;
 }
 
 .logo {
-    color: #ffff;
+   color: #ffff;
 }
 
 .text-shadow {
-    text-shadow: 1px 1px 2px black;
+   text-shadow: 1px 1px 2px black;
 }
 
 .painel {
-    background-color: #2e7d32;
+   background-color: #2e7d32;
 }
 
-.login-container{
-    height: 75vh; 
+.login-container {
+   height: 75vh;
 }
 
-.cadastro-container{
-    height: 85vh; 
+.cadastro-container {
+   height: 85vh;
 }
 
 .pergunta {
-    border-bottom: 1px solid rgba(0,0,0,.2);
+   border-bottom: 1px solid rgba(0, 0, 0, .2);
 }
 
+.full-height-section {
+   min-height: 100vh;
+
+}
+
+.btn-outline-success {
+   transition: all 0.7s ease;
+}
+
+
+.doacao-title {
+   color: #2e7d32;
+
+}
 
 body {
 
-    padding-top: 85px;
-   
+   padding-top: 85px;
+
 
 }
 
-#home-quote{
+#home-quote {
 
-    background: url('imgs/jungle.jpg') center center;
-    background-size: cover;
-    filter: saturate(50%);
-    height: max-content;
+   background: url('imgs/jungle.jpg') center center;
+   background-size: cover;
+   filter: saturate(50%);
+   height: max-content;
 
 }
 
 @media (max-width: 767px) {
-    .login-container {
+   .login-container {
       margin: 0 !important;
       width: 100% !important;
       max-width: 95vw;
-    }
+   }
 
-    .cadastro-container {
-        margin: 0 !important;
-        height: 85%;
-        width: 100% !important;
+   .cadastro-container {
+      margin: 0 !important;
+      height: 85%;
+      width: 100% !important;
       max-width: 95vw;
-    }
-    
-    .container-fluid {
+   }
+
+   .container-fluid {
       padding-left: 0 !important;
       padding-right: 0 !important;
-    }
+   }
+
+   .navbar-nav .btn {
+      background-color: transparent !important;
+      border-color: transparent !important;
+      padding: 0;
+      color: inherit !important;
+   }
+
+   .navbar-nav .btn-success {
+      color: #fff !important;
+      margin-top: 0.5rem;
+   }
+
+   .navbar-nav .btn-outline-success {
+      color: #fff !important;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+   }
+
+   .navbar-nav .btn:hover {
+      text-decoration: underline;
+   }
 }
 
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .navbar-nav .btn {
         background-color: transparent !important;
         border-color: transparent !important;
@@ -91,22 +127,24 @@ body {
     .navbar-nav .btn:hover {
         text-decoration: underline;
     }
-}
+} */
 
 @media (min-width: 768px) {
-    .custom-nav-link {
-        font-size: 1.25rem !important; 
-    }
+   .custom-nav-link {
+      font-size: 1.25rem !important;
+   }
 }
 
 @media (max-width: 768px) {
-    #home-quote .display-4 {
-        font-size: 2.5rem;
-    }
-    body {
-        padding-top: 0px;
-    }
-    .fixed-top {
-        position: relative;
-    }
+   #home-quote .display-4 {
+      font-size: 2.5rem;
+   }
+
+   body {
+      padding-top: 0px;
+   }
+
+   .fixed-top {
+      position: relative;
+   }
 }
