@@ -37,32 +37,7 @@ Para visualizar o projeto em sua máquina local, siga os passos abaixo:
 
 3. *Abra o arquivo index.html* no seu navegador de preferência para visualizar o site.
 
-## Contribuição
-
-Contribuições são bem-vindas! Se você deseja contribuir com melhorias ou correções, siga os passos abaixo:
-
-1. *Faça um fork* deste repositório.
-
-2. *Crie uma nova branch para a sua feature ou correção*:
-
-   bash
-   git checkout -b minha-nova-feature
-   
-
-3. *Faça as alterações necessárias* e *commit*:
-
-   bash
-   git commit -am 'Adicionando nova funcionalidade'
-   
-
-4. *Envie para o repositório remoto*:
-
-   bash
-   git push origin minha-nova-feature
-   
-
-5. *Abra um Pull Request* para que suas alterações sejam revisadas e incorporadas.
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE no repositório.
+Este projeto está licenciado sob a licença MIT.
