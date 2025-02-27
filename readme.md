@@ -2,6 +2,12 @@
 
 Bem-vindo ao repositório do *Projeto Web Senai*. Este projeto foi desenvolvido como parte das atividades do curso do Senai, com o objetivo de aplicar e demonstrar conhecimentos em desenvolvimento web.
 
+## Telas do Projeto
+
+![Tela Informativa](https://github.com/Vinis-vp/Projeto-Web-Senai/blob/main/imgs/print-screen-informe-se.png)
+![Tela Doação](https://github.com/Vinis-vp/Projeto-Web-Senai/blob/main/imgs/print-screen-doacao.png)
+![Tela Login](https://github.com/Vinis-vp/Projeto-Web-Senai/blob/main/imgs/print-screen-login.png)
+
 ## Estrutura do Projeto
 
 O projeto é organizado da seguinte forma:
