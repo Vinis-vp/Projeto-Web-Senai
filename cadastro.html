@@ -14,7 +14,7 @@
    <!-- barra de navegação -->
    <nav class="navbar navbar-expand-md navbar-dark fixed-top py-0 px-4 box-shadow navigation painel"
       style="background-color: #795548; opacity: 0.95;">
-      <a href="" class="navbar-brand logo">
+      <a href="/index.html" class="navbar-brand logo">
          <img src="imgs/logo Branca.png" alt="logo" class="img-fluid mx-md-4" style="max-width: 75px;">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -63,7 +63,7 @@
                <h2 class="fw-bold text-dark">Bem-vindo</h2>
                <p class="text-muted">Crie uma conta</p>
 
-               <form id="loginForm">
+               <form id="cadastroForm">
                   <div class="mb-3">
                      <label for="nome" class="form-label">Nome</label>
                      <input type="nome" id="nome" class="form-control" placeholder="Digite seu nome completo" required>
@@ -82,6 +82,9 @@
                   </div>
                   <button type="submit" class="btn btn-success w-100 mt-2">Cadastrar</button>
                </form>
+               <div id="successMessage" class="alert alert-success mt-3" style="display: none;">
+                  Cadastro realizado com sucesso! Você será redirecionado...
+               </div>   
             </div>
          </div>
       </div>
