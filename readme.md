@@ -4,8 +4,16 @@ Bem-vindo ao repositório do *Projeto Web Senai*. Este projeto foi desenvolvido 
 
 ## Telas do Projeto
 
+### Tela de Espécies em risco
+
 ![Tela Informativa](https://github.com/Vinis-vp/Projeto-Web-Senai/blob/main/imgs/print-screen-informe-se.png)
+
+### Tela de Doação
+
 ![Tela Doação](https://github.com/Vinis-vp/Projeto-Web-Senai/blob/main/imgs/print-screen-doacao.png)
+
+### Tela de login
+
 ![Tela Login](https://github.com/Vinis-vp/Projeto-Web-Senai/blob/main/imgs/print-screen-login.png)
 
 ## Estrutura do Projeto
